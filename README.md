@@ -13,6 +13,7 @@ After the RIO alignment, the object features and ROIs are passed to the fully co
 ![image](https://user-images.githubusercontent.com/70836660/142833730-983f6549-8874-42e6-9888-d98415976593.png)
 
 
+
 Usage: import the module (see Jupyter notebooks for examples), or run from
        the command line as such:
 
@@ -31,7 +32,9 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
     # Apply color splash to video using the last weights you trained
     python3 tumor.py splash --weights=last --video=<URL or path to file>
 
+
 Resutls:
+
 The final results can be seen below. Provided with an MRI image, the model can accurately detect the cancer and provides a mask accurately enclosing cancerous region.
 
 Input:
