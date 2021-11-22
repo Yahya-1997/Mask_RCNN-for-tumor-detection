@@ -19,10 +19,10 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
     # Apply color splash to video using the last weights you trained
     python3 tumor.py splash --weights=last --video=<URL or path to file>
 
-Resutls:
-The final results can be seen below. Provided by an MRI image, the model can accurately detect the cancer region and provide an mask accurately enclosing cancerous region.
-
+**Resutls:**
+The final results can be seen below. Provided with an MRI image, the model can accurately detect the cancer and provides a mask accurately enclosing cancerous region.
+Input:
 ![image](https://user-images.githubusercontent.com/70836660/142829967-3858364b-0d6e-438f-be88-5f64532ddf2a.png)
-
+Output:
 ![image](https://user-images.githubusercontent.com/70836660/142830257-9c44a2e1-f2f7-4f3d-9a7f-cc021e5e73b8.png)
 
