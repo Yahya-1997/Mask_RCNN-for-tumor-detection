@@ -18,3 +18,7 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
 
     # Apply color splash to video using the last weights you trained
     python3 tumor.py splash --weights=last --video=<URL or path to file>
+
+![image](https://user-images.githubusercontent.com/70836660/142829967-3858364b-0d6e-438f-be88-5f64532ddf2a.png)
+
+![image](https://user-images.githubusercontent.com/70836660/142829996-fb6b83e3-f6c2-47a1-b669-940276cb93b1.png)
