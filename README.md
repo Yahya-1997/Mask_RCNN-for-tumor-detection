@@ -2,7 +2,10 @@
 Uses Mask_RCNN for brain tumor detection in MRI images
 
 Architecture
-The architecture of the model can be seen below. The first part of the model consists of a Convolutional Neural Network that extracts the dynamic features from the input image and also provides the proposed localization regions of the features. Then the features and the proposed regions of features are fed to the next component of the model ROI Align which is a Deep Neural Network model which calculates the similarity between the input features and aligns the RIO which belongs to the same individual object. After the RIO alignment, the object features and ROIs are passed to the fully connected layers which classify the detected objects based on features and also calculate the boundary boxes around the objects for output images. The output of RIO Align layer is also fed to another neural network to calculate the masks of the objects which provides the pixels locations that belong to the object.
+
+The architecture of the model can be seen below. The first part of the model consists of a Convolutional Neural Network that extracts the dynamic features from the input image and also provides the proposed localization regions of the features. 
+Then the features and the proposed regions of features are fed to the next component of the model ROI Align which is a Deep Neural Network model which calculates the similarity between the input features and aligns the RIO which belongs to the same individual object. 
+After the RIO alignment, the object features and ROIs are passed to the fully connected layers which classify the detected objects based on features and also calculate the boundary boxes around the objects for output images. The output of RIO Align layer is also fed to another neural network to calculate the masks of the objects which provides the pixels locations that belong to the object.
 
 ![image](https://user-images.githubusercontent.com/70836660/142833730-983f6549-8874-42e6-9888-d98415976593.png)
 
